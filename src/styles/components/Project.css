@@ -1,0 +1,59 @@
+.project {
+    /* background-color: white; */
+    width: 100%;
+    height: 600px;
+    margin: 0 0 110px 0;
+    display: flex;
+    align-items: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-picture {
+    background-color: yellow;
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+}
+
+.project-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-about {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* background-color: aqua; */
+    width: 50%;
+    height: 80%;
+}
+
+.project-about h3 {
+    font-size: 3rem;
+}
+
+.project-about p {
+    text-align: end;
+    color: black;
+}
+
+.project-about ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.reverse-about {
+    align-items: flex-start;
+}
+
+.reverse-about p {
+    text-align: start;
+}
