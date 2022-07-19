@@ -52,19 +52,19 @@ const Header = () => {
           <a href="#main">Main</a>
         </li>
         <li className={headerClass.about}>
-          <a href="#about">About</a>
+          <a href="#about">Sobre Mi</a>
         </li>
         <li className={headerClass.projects}>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Proyectos</a>
         </li>
         <li className="resume-nav">
           <a
-            href="https://drive.google.com/file/d/1xSXAHcAXAKoCzrowD_sK9JDbN2V66Cd2/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cG4vO0pn8R1VdeoO_yOetw55suPAR27k/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className={headerClass.button}
           >
-            Resume
+            CV
           </a>
         </li>
       </ul>

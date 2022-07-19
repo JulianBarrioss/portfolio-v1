@@ -2,7 +2,6 @@
     width: 100%;
     background-color: var(--beige);
     height: 100vh;
-    padding: 0 300px 0 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,11 +9,13 @@
 }
 
 .mainSection h1 {
+    text-align: center;
+    width: 70%;
     font-size: 7.5rem;
     font-family: 'Abril Fatface', cursive;
     margin: 0;
     font-weight: 500;
-    color: var(--green);
+    color: var(--dark-green);
     text-shadow: 5px 3px var(--light-green);
     -webkit-text-stroke: 3px var(--border-green);
     -webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -22,10 +23,13 @@
 }
 
 .mainSection p {
+    color: var(--dark-green);
+    text-align: center;
+    width: 70%;
     margin: 0;
     padding: 0;
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.7rem;
+    font-weight: 600;
     font-family: 'Lato', sans-serif;
     -webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
     animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
@@ -59,4 +63,11 @@
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+@media (max-width: 543px) {
+    .mainSection h1 {
+        font-size: 5rem;
+    }
+
 }

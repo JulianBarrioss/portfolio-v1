@@ -6,65 +6,49 @@ import "../styles/containers/ProjectsSection.css";
 const ProjectsSection = () => {
   return (
     <div className="projectsSection" id="projects">
-      <h2>Projects</h2>
-      <a href="https://vinylshop.netlify.app" target="_blank" rel="noreferrer">
-        <Project
-          src={"https://i.ibb.co/ctqqDpF/asdf.png"}
-          title={"Vinyl-Shop"}
-          description={
-            "Una tienda creada en React.js usando LocalStorage, y la React Context API"
-          }
-          tech={["React.js", "MaterialUI"]}
-        />
-      </a>
-      <a
-        href="https://expense-trackerp2.netlify.app/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Project
-          src={"https://i.ibb.co/txYvYtx/expensess.png"}
-          reverse
-          title={"Expense Tracker"}
-          description={
-            "A web app created in React.js, that helps you keep control of your incomes and expenses wich uses: LocalStorage, and the React Context API."
-          }
-          tech={["React.js", "MaterialUI", "Chart.js"]}
-        />
-      </a>
-
-      <a
-        href="https://movie-finderp3.netlify.app/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Project
-          src={"https://i.ibb.co/YTpW3Ys/movie.png"}
-          title={"Movie Finder"}
-          description={
-            "A web app that helps you keep control of your incomes and expenses wich uses: LocalStorage, "
-          }
-          tech={["React.js", "MaterialUI", "Chart.js"]}
-        />
-      </a>
-      <a
-        href="https://wordle-clonep4.netlify.app/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Project
-          src={"https://i.ibb.co/Sx19H3w/wordleclone.png"}
-          reverse
-          title={"Wordle Clone"}
-          description={
-            "A  clone of wordle created in React.js, wich uses Redux"
-          }
-          tech={["React.js", "MaterialUI", "Chart.js"]}
-        />
-      </a>
-      {/* <Project src={"https://i.ibb.co/ctqqDpF/asdf.png"} reverse />
-      <Project src={"https://i.ibb.co/ctqqDpF/asdf.png"} />
-      <Project src={"https://i.ibb.co/ctqqDpF/asdf.png"} reverse /> */}
+      <h2>Algunas cosas que he programado</h2>
+      <Project
+        src={"https://i.ibb.co/ctqqDpF/asdf.png"}
+        title={"Vinyl-Shop"}
+        description={
+          "Una tienda en linea creada con React.js usando LocalStorage, Firebase Authentication y la React Context API"
+        }
+        tech={["React.js", "Firebase", "React Context API", "MaterialUI"]}
+        pageLink={"https://vinylshop.netlify.app"}
+        github={"https://github.com/JulianBarrioss/Vinyl-Shop"}
+      />
+      <Project
+        src={"https://i.ibb.co/txYvYtx/expensess.png"}
+        title={"Expense Tracker"}
+        description={
+          "Una herramienta creada con React.js que te ayuda a tener el registro de tus gastos y tus ingresos, este proyecto usa LocalStorage, y React Context API"
+        }
+        reverse
+        tech={["React.js", "Chart.js", "React Context API", "Material UI"]}
+        pageLink={"https://expense-trackerp2.netlify.app"}
+        github={"https://github.com/JulianBarrioss/expense-tracker"}
+      />
+      <Project
+        src={"https://i.ibb.co/YTpW3Ys/movie.png"}
+        title={"Movie Finder"}
+        description={
+          "Un buscador de peliculas creado con React.js usando la API de The Movie Database"
+        }
+        tech={["React.js", "Axios", "The Movie Database"]}
+        pageLink={"https://movie-finderp3.netlify.app/"}
+        github={"https://github.com/JulianBarrioss/movie-finder"}
+      />
+      <Project
+        src={"https://i.ibb.co/Sx19H3w/wordleclone.png"}
+        title={"Wordle Clone"}
+        description={
+          "Un clon del famoso juego de palabras Wordle creado con React.js"
+        }
+        tech={["React.js", "Redux Toolkit", "React Icons"]}
+        reverse
+        pageLink={"https://wordle-clonep4.netlify.app/"}
+        github={"https://github.com/JulianBarrioss/wordle-clone"}
+      />
     </div>
   );
 };

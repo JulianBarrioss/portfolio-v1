@@ -1,10 +1,9 @@
 .project {
-    /* background-color: white; */
-    width: 100%;
-    height: 600px;
-    margin: 0 0 110px 0;
+    width: 90%;
+    margin: 0 0 150px 0;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .reverse {
@@ -12,10 +11,7 @@
 }
 
 .project-picture {
-    background-color: yellow;
-    width: 80%;
-    height: 80%;
-    border: 2px solid black;
+    width: 60%;
 }
 
 .project-picture img {
@@ -29,25 +25,36 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* background-color: aqua; */
-    width: 50%;
-    height: 80%;
+    width: 40%;
 }
 
 .project-about h3 {
     font-size: 3rem;
+    margin: 20px 0 20px 0;
 }
 
 .project-about p {
     text-align: end;
+    line-height: 25px;
     color: black;
+    display: inline-block;
+    width: 100%;
 }
 
 .project-about ul {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 90%;
+    padding: 0;
+}
+
+.project-about-img__container {
+    width: 35px;
+}
+
+.project-about-img__container img {
+    width: 35px;
 }
 
 .reverse-about {
@@ -56,4 +63,31 @@
 
 .reverse-about p {
     text-align: start;
+}
+
+@media (max-width: 700px) {
+    .project-picture {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-about {
+        z-index: 9;
+        width: 100%;
+        background-color: var(--clear-beige);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-about h3,
+    .project-about p,
+    .project-about ul,
+    .project-about li,
+    .project-about-img__container,
+    .project-about-img__container img,
+    .project-about a {
+        background-color: rgba(255, 141, 141, 0);
+    }
+
 }

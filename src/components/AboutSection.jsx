@@ -5,18 +5,21 @@ import "../styles/components/AboutSection.css";
 const AboutSection = () => {
   return (
     <section className="aboutSection" id="about">
-      <h2>About</h2>
+      <h2>Sobre Mi</h2>
       <div className="aboutSection-container">
-      <div className="aboutSection-about">
         <p>
-          I'm an enthusiastic and detail-oriented Frontend Software Engineer
-          seeking an entry-level position with Company to use my skills in
-          coding, troubleshooting complex problems, and assisting in the timely
-          completion of projects.
+          Hola! Soy Julian y soy un desarrollador Front-End de Guatemala,
+          joven entusiasta y busco un puesto Junior para finalmente comenzar mi
+          carreta y aprender entre profesionales.
         </p>
-      </div>
-      <div className="aboutSection-tech">
-        <p>Here are a few technologies I’ve been working with recently:</p>
+        <p>
+          Estoy emocionado de dar el siguiente paso y continuar perfeccionando
+          mis habilidades con la compañía adecuada.
+        </p>
+        <p>
+          Estas son algunas tecnologías con las que he estado trabajando
+          recientemente:
+        </p>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -26,8 +29,6 @@ const AboutSection = () => {
           <li>Git / Github</li>
         </ul>
       </div>
-      </div>
-      
     </section>
   );
 };
