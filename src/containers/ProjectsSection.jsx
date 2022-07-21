@@ -8,7 +8,7 @@ const ProjectsSection = () => {
     <div className="projectsSection" id="projects">
       <h2>Algunas cosas que he programado</h2>
       <Project
-        src={"https://i.ibb.co/ctqqDpF/asdf.png"}
+        src={"https://i.ibb.co/pzsHFDM/Captura-de-pantalla-2022-07-19-214424.png"}
         title={"Vinyl-Shop"}
         description={
           "Una tienda en linea creada con React.js usando LocalStorage, Firebase Authentication y la React Context API"
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
         description={
           "Un buscador de peliculas creado con React.js usando la API de The Movie Database"
         }
-        tech={["React.js", "Axios", "The Movie Database"]}
+        tech={["React.js", "Axios", "The Movie Database", "React Context API"]}
         pageLink={"https://movie-finderp3.netlify.app/"}
         github={"https://github.com/JulianBarrioss/movie-finder"}
       />
